@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="create.css">
+    <title>Add Resource</title>
+</head>
+<body>
+    <div class="content">
+        <div class="img"></div>
+
+        <div class="middle">
+            <div class="innermiddleimg">
+                <img src="event.webp" alt="image">
+            </div>
+
+            <div class="innermiddle">
+                <div class="formfil">
+                    <div class="headtext">
+                        <h2>Add Resource</h2>
+                    </div>
+
+                    <div class="formcontent">
+                        <form id="resourceForm">
+                            <label for="event-material">Material Name:</label>
+                            <div class="input-container">
+                                <input type="text" id="event-material" name="event-material" required>
+                            </div>
+
+                            <label for="quantity">Quantity:</label>
+                            <div class="input-container">
+                                <input type="number" id="quantity" name="quantity" required>
+                            </div>
+                            <label for="evt-name">event name:</label>
+                            <div class="input-container">
+                                <input type="text" id="evt-name" name="evt-name" required>
+                            </div>
+                            
+                            <button type="submit">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
